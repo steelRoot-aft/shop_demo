@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>steelRoot</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+<body>
+
+	<div class="wrapper">
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<div class="header__header item-header">
+					<div class="item-header__body">
+						<div class="item-header__adderss">
+							<address class="item-header__number"><i class="fa-solid fa-phone"></i> (00)-123-456-789</address>
+							<address class="item-header__mail"><i class="fa-regular fa-envelope"></i> weshop@gmail.com</address>
+						</div>
+						<div class="item-header__menu">
+							<ul class="item-header__list">
+								<li>
+									<select name="language" id="language-select" class="item-header__language">
+										<option value="english">English</option>
+										<option value="russian">Russian</option>
+									</select>
+								</li>
+								<li>
+									<select name="currency" id="currency-select" class="item-header__currency">
+										<option value="usd">USD</option>
+										<option value="eur">EUR</option>
+										<option value="uah">UAH</option>
+										<option value="rub">RUB</option>
+									</select>
+								</li>
+								<li><a href="#" class="item-header__link">Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header__main item-main">
+					<div class="item-main__body">
+						<form action="#" class="item-main__form">
+							<input placeholder="Search..." type="search" class="item-main__input" id="searchInput">
+							<button class="item-main__button" id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+						</form>
+					</div>
+				</div>
+				<div class="header__footer item-footer">
+					<div class="item-footer__body">
+						<div class="item-footer__logotype">
+							<a href="#" class="item-footer__logo">weshop</a>
+						</div>
+						<div class="item-footer__burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="item-footer__block">
+							<nav class="item-footer__menu">
+								<ul class="item-footer__list">
+									<li><a href="#" class="item-footer__link">Home</a></li>
+									<li class="item-men drop__down">
+										<a href="#" class="item-footer__link">Shop<img src="img/arrow_drop_down.svg" alt="arrow_drop_down"></a>
+										<div class="item-men__body block__drop">
+											<div class="item-men__row">
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Top</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Tops & Tees</a></li>
+															<li><a href="#" class="item-men__link">Shirts</a></li>
+															<li><a href="#" class="item-men__link">Suits & Blazer</a></li>
+															<li><a href="#" class="item-men__link">Hoodies & Sweatshirts</a></li>
+															<li><a href="#" class="item-men__link">Coats & Jackets</a></li>
+															<li><a href="#" class="item-men__link">Sweaters</a></li>
+															<li><a href="#" class="item-men__link">Bottoms</a></li>
+															<li><a href="#" class="item-men__link">Pants</a></li>
+														</ul>
+													</div>
+												</article>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Winter Style</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Down Jackets</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+															<li><a href="#" class="item-men__link">Printed Hoodies</a></li>
+															<li><a href="#" class="item-men__link">Suits</a></li>
+															<li><a href="#" class="item-men__link"></a></li>
+														</ul>
+													</div>
+												</article>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Sunglasses</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Pilot</a></li>
+															<li><a href="#" class="item-men__link">Wayfarer</a></li>
+															<li><a href="#" class="item-men__link">Square</a></li>
+															<li><a href="#" class="item-men__link">Round</a></li>
+															<li><a href="#" class="item-men__link">Oval</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+														</ul>
+													</div>
+												</article>
+												<div class="item-men__image">
+													<div class="item-men__img">
+														<p>50% OFF</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="item-men drop__down">
+										<a href="#" class="item-footer__link">Men<img src="img/arrow_drop_down.svg" alt="arrow_drop_down"></a>
+										<div class="item-men__body block__drop">
+											<div class="item-men__row">
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Top</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Tops & Tees</a></li>
+															<li><a href="#" class="item-men__link">Shirts</a></li>
+															<li><a href="#" class="item-men__link">Suits & Blazer</a></li>
+															<li><a href="#" class="item-men__link">Hoodies & Sweatshirts</a></li>
+															<li><a href="#" class="item-men__link">Coats & Jackets</a></li>
+															<li><a href="#" class="item-men__link">Sweaters</a></li>
+															<li><a href="#" class="item-men__link">Bottoms</a></li>
+															<li><a href="#" class="item-men__link">Pants</a></li>
+														</ul>
+													</div>
+												</article>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Winter Style</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Down Jackets</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+															<li><a href="#" class="item-men__link">Printed Hoodies</a></li>
+															<li><a href="#" class="item-men__link">Suits</a></li>
+															<li><a href="#" class="item-men__link"></a></li>
+														</ul>
+													</div>
+												</article>
+												<div class="item-men__image">
+													<div class="item-men__img">
+														<p>50% OFF</p>
+													</div>
+												</div>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Sunglasses</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Pilot</a></li>
+															<li><a href="#" class="item-men__link">Wayfarer</a></li>
+															<li><a href="#" class="item-men__link">Square</a></li>
+															<li><a href="#" class="item-men__link">Round</a></li>
+															<li><a href="#" class="item-men__link">Oval</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+														</ul>
+													</div>
+												</article>
+											</div>
+										</div>
+									</li>
+									<li class="item-men drop__down">
+										<a href="#" class="item-footer__link">Women<img src="img/arrow_drop_down.svg" alt="arrow_drop_down"></a>
+										<div class="item-men__body block__drop">
+											<div class="item-men__row">
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Top</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Tops & Tees</a></li>
+															<li><a href="#" class="item-men__link">Shirts</a></li>
+															<li><a href="#" class="item-men__link">Suits & Blazer</a></li>
+															<li><a href="#" class="item-men__link">Hoodies & Sweatshirts</a></li>
+															<li><a href="#" class="item-men__link">Coats & Jackets</a></li>
+															<li><a href="#" class="item-men__link">Sweaters</a></li>
+															<li><a href="#" class="item-men__link">Bottoms</a></li>
+															<li><a href="#" class="item-men__link">Pants</a></li>
+														</ul>
+													</div>
+												</article>
+												<div class="item-men__image">
+													<div class="item-men__img">
+														<p>50% OFF</p>
+													</div>
+												</div>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Winter Style</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Down Jackets</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+															<li><a href="#" class="item-men__link">Printed Hoodies</a></li>
+															<li><a href="#" class="item-men__link">Suits</a></li>
+															<li><a href="#" class="item-men__link"></a></li>
+														</ul>
+													</div>
+												</article>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Sunglasses</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Pilot</a></li>
+															<li><a href="#" class="item-men__link">Wayfarer</a></li>
+															<li><a href="#" class="item-men__link">Square</a></li>
+															<li><a href="#" class="item-men__link">Round</a></li>
+															<li><a href="#" class="item-men__link">Oval</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+														</ul>
+													</div>
+												</article>
+											</div>
+										</div>
+									</li>
+									<li class="item-men drop__down">
+										<a href="#" class="item-footer__link">Page<img src="img/arrow_drop_down.svg" alt="arrow_drop_down"></a>
+										<div class="item-men__body block__drop">
+											<div class="item-men__row">
+												<div class="item-men__image">
+													<div class="item-men__img">
+														<p>50% OFF</p>
+													</div>
+												</div>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Top</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Tops & Tees</a></li>
+															<li><a href="#" class="item-men__link">Shirts</a></li>
+															<li><a href="#" class="item-men__link">Suits & Blazer</a></li>
+															<li><a href="#" class="item-men__link">Hoodies & Sweatshirts</a></li>
+															<li><a href="#" class="item-men__link">Coats & Jackets</a></li>
+															<li><a href="#" class="item-men__link">Sweaters</a></li>
+															<li><a href="#" class="item-men__link">Bottoms</a></li>
+															<li><a href="#" class="item-men__link">Pants</a></li>
+														</ul>
+													</div>
+												</article>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Winter Style</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Down Jackets</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+															<li><a href="#" class="item-men__link">Printed Hoodies</a></li>
+															<li><a href="#" class="item-men__link">Suits</a></li>
+															<li><a href="#" class="item-men__link"></a></li>
+														</ul>
+													</div>
+												</article>
+												<article class="item-men__column">
+													<div class="item-men__section">
+														<h3 class="item-men__title">Sunglasses</h3>
+														<ul class="item-men__list">
+															<li><a href="#" class="item-men__link">Pilot</a></li>
+															<li><a href="#" class="item-men__link">Wayfarer</a></li>
+															<li><a href="#" class="item-men__link">Square</a></li>
+															<li><a href="#" class="item-men__link">Round</a></li>
+															<li><a href="#" class="item-men__link">Oval</a></li>
+															<li><a href="#" class="item-men__link">Jackets</a></li>
+															<li><a href="#" class="item-men__link">Parkas</a></li>
+															<li><a href="#" class="item-men__link">Leather & Suede</a></li>
+														</ul>
+													</div>
+												</article>
+											</div>
+										</div>
+									</li>
+									<li><a href="#" class="item-footer__link">Blog</a></li>
+									<li><a href="#" class="item-footer__link">Contact us</a></li>
+								</ul>
+							</nav>
+							<div class="item-footer__basket">
+								<a href="#" class="basket__link"><i class="fa-solid fa-basket-shopping"></i></a><span class="basket__num"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="page">
+		<section class="main">
+			<div class="container">
+				<div class="main__body">
+					<div class="swiper main__swiper">
+						<div class="swiper-wrapper main__wrapper">
+							<article class="swiper-slide main__slide item-slide">
+								<div class="item-slide__body">
+									<h1 class="item-slide__title">fashion is nothing</h1>
+									<p class="item-slide__subtitle">but <span class="blue">mischief</span></p>
+									<div class="item-slide__button">
+										<a href="#" class="item-slide__btn">shop now</a>
+									</div>
+								</div>
+							</article>
+							<article class="swiper-slide main__slide item-slide">
+								<div class="item-slide__body">
+									<h1 class="item-slide__title">fashion is nothing</h1>
+									<p class="item-slide__subtitle">but <span class="blue">mischief</span></p>
+									<div class="item-slide__button">
+										<a href="#" class="item-slide__btn">shop now</a>
+									</div>
+								</div>
+							</article>
+							<article class="swiper-slide main__slide item-slide">
+								<div class="item-slide__body">
+									<h1 class="item-slide__title">fashion is nothing</h1>
+									<p class="item-slide__subtitle">but <span class="blue">mischief</span></p>
+									<div class="item-slide__button">
+										<a href="#" class="item-slide__btn">shop now</a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="swiper-button-prev main__button-prev">
+						<span>P</span>
+						<span>R</span>
+						<span>E</span>
+						<span>V</span>
+					</div>
+					<div class="swiper-button-next main__button-next">
+						<span>N</span>
+						<span>E</span>
+						<span>X</span>
+						<span>T</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="promo">
+			<div class="container">
+				<div class="promo__body">
+					<div class="promo__header">
+						<div class="promo__header-body">
+							<article class="promo__header-column">
+								<div class="promo__header-block">
+									<h2 class="promo__header-title">
+										<span>Men’s t-shirt</span>
+										<span>collection</span>
+										<span>2016</span>
+									</h2>
+								</div>
+							</article>
+							<article class="promo__header-column">
+								<div class="promo__header-block">
+									<h2 class="promo__header-title">
+										<span>50% OFFER</span>
+										<span>BELT <span class="blue">COLLECTION</span></span>
+									</h2>
+									<div class="promo__header-button">
+										<a href="#" class="promo__header-btn">See more...</a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="promo__main">
+						<div class="promo__main-body">
+							<article class="promo__main-column">
+								<div class="promo__main-block">
+									<div class="promo__main-icons">
+										<img src="img/promo_main-1.svg" alt="promo_main-1">
+									</div>
+									<div class="promo__main-info">
+										<h3 class="promo__main-title">24/7 Hour Support</h3>
+										<p class="promo__main-text">Our online support section is available and regularly updated if you'd prefer.</p>
+									</div>
+								</div>
+							</article>
+							<article class="promo__main-column">
+								<div class="promo__main-block">
+									<div class="promo__main-icons">
+										<img src="img/promo_main-2.svg" alt="promo_main-2">
+									</div>
+									<div class="promo__main-info">
+										<h3 class="promo__main-title">EASY SERVICE</h3>
+										<p class="promo__main-text">Our online support section is available and regularly updated if you'd prefer.</p>
+									</div>
+								</div>
+							</article>
+							<article class="promo__main-column">
+								<div class="promo__main-block">
+									<div class="promo__main-icons">
+										<img src="img/promo_main-3.svg" alt="promo_main-3">
+									</div>
+									<div class="promo__main-info">
+										<h3 class="promo__main-title">HOME DELIVERY</h3>
+										<p class="promo__main-text">Our online support section is available and regularly updated if you'd prefer.</p>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="promo__footer">
+						<div class="promo__footer-body">
+							<div class="promo__footer-column card-promo">
+								<div class="card-promo__body">
+									<a href="#" class="card-promo__link">
+									<div class="card-promo__block"></div>
+									</a>
+								</div>
+							</div>
+							<div class="promo__footer-column card-promo">
+								<div class="card-promo__body">
+									<a href="#" class="card-promo__link">
+										<div class="card-promo__block"></div>
+									</a>
+								</div>
+							</div>
+							<div class="promo__footer-column card-promo">
+								<div class="card-promo__body">
+								<h3 class="card-promo__title">mens / Lifestyle</h3>
+								<div class="card-promo__button">
+									<a href="#" class="card-promo__btn"><i class="fa-solid fa-arrow-right-long"></i></a>
+								</div>
+								</div>
+							</div>
+							<div class="promo__footer-column card-promo">
+								<div class="card-promo__body">
+								<div class="card-promo__button">
+									<a href="#" class="card-promo__btn">shop now</a>
+								</div>
+								</div>
+							</div>
+							<div class="promo__footer-column card-promo">
+								<div class="card-promo__body">
+									<a href="#" class="card-promo__link">
+										<div class="card-promo__block"></div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="collections">
+			<div class="container">
+				<div class="collections__body">
+					<article class="collections__top">
+						<div class="collections__top-body">
+							<h2 class="collections__top-title">new collection</h2>
+							<div class="collections__top-buttons">
+								<button data-filter="all" class="collections__top-btn">All</button>
+								<button data-filter="men" class="collections__top-btn">Men</button>
+								<button data-filter="women" class="collections__top-btn">Women</button>
+								<button data-filter="shop" class="collections__top-btn">Shop</button>
+								<button data-filter="accessories" class="collections__top-btn">Accessories</button>
+							</div>
+						</div>
+					</article>
+					<div class="collections__bottom">
+						<div class="collections__bottom-body">
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="collections__bottom-column item-collections men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="collections__bottom-column item-collections women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="collections__bottom-column item-collections shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="collections__bottom-column item-collections accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="container">
+				<div class="slider__body">
+					<div class="swiper slider__swiper">
+						<div class="swiper-wrapper slider__wrapper">
+							<article class="swiper-slide slider__slide item-slider">
+								<div class="item-slider__body">
+									<h2 class="item-slider__title">PERSONAL <span class="blue">ASSISTENT</span></h2>
+									<div class="item-slider__subtitle">
+										<p>You don’t know what to choose? We will help you.</p>
+									</div>
+									<div class="item-slider__button">
+										<a href="#" class="item-slider__btn">view collection</a>
+									</div>
+								</div>
+							</article>
+							<article class="swiper-slide slider__slide">
+								<div class="item-slider__body">
+									<h2 class="item-slider__title">PERSONAL <span class="blue">ASSISTENT</span></h2>
+									<div class="item-slider__subtitle">
+										<p>You don’t know what to choose? We will help you.</p>
+									</div>
+									<div class="item-slider__button">
+										<a href="#" class="item-slider__btn">view collection</a>
+									</div>
+								</div>
+							</article>
+							<article class="swiper-slide slider__slide">
+								<div class="item-slider__body">
+									<h2 class="item-slider__title">PERSONAL <span class="blue">ASSISTENT</span></h2>
+									<div class="item-slider__subtitle">
+										<p>You don’t know what to choose? We will help you.</p>
+									</div>
+									<div class="item-slider__button">
+										<a href="#" class="item-slider__btn">view collection</a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="swiper-button-prev slider__prev"><i class="fa-solid fa-square-caret-left"></i></div>
+					<div class="swiper-button-next slider__next"><i class="fa-solid fa-square-caret-right"></i></div>
+				</div>
+			</div>
+		</section>
+		<section class="featured">
+			<div class="container">
+				<div class="featured__body">
+					<article class="featured__top">
+						<h2 class="featured__top-title">FEATURED</h2>
+						<div class="featured__top-buttons">
+							<button data-filter="all" class="featured__top-btn">All</button>
+							<button data-filter="men" class="featured__top-btn">Men</button>
+							<button data-filter="women" class="featured__top-btn">Women</button>
+							<button data-filter="shop" class="featured__top-btn">Shop</button>
+							<button data-filter="accessories" class="featured__top-btn">Accessories</button>
+						</div>
+					</article>
+					<div class="featured__bottom">
+						<div class="featured__bottom-body">
+							<div data-category="men" class="featured__bottom-column item-featured men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="featured__bottom-column item-featured men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="featured__bottom-column item-featured men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="men" class="featured__bottom-column item-featured men">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="featured__bottom-column item-featured women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="featured__bottom-column item-featured women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="featured__bottom-column item-featured women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="women" class="featured__bottom-column item-featured women">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="featured__bottom-column item-featured shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="featured__bottom-column item-featured shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="featured__bottom-column item-featured shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="shop" class="featured__bottom-column item-featured shop">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="featured__bottom-column item-featured accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="featured__bottom-column item-featured accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="featured__bottom-column item-featured accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div data-category="accessories" class="featured__bottom-column item-featured accessories">
+								<div class="item-collections__body">
+									<span class="item-collections__price">$500</span>
+									<div class="item-collections__buttons">
+										<button class="item-collections__eye"><i class="fa-regular fa-eye"></i></button>
+										<button class="item-collections__heart"><i class="fa-regular fa-heart"></i></button>
+										<button class="item-collections__basket">
+											<i class="fa-solid fa-cart-shopping"></i>
+											<div class="item-collections__text">
+												<p>Add to cart</p>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="featured__promo">
+						<div class="featured__promo-body">
+							<article class="featured__promo-column">
+								<a href="#" class="featured__promo-link">
+									<div class="featured__promo-info">
+									<h2 class="featured__promo-title">new <span>men’s collection</span></h2>
+									<div class="featured__promo-subtitle">
+										<p>coming soon</p>
+									</div>
+								</div>
+							</a>
+							</article>
+							<article class="featured__promo-column">
+								<a href="#" class="featured__promo-link"></a>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="news">
+			<div class="container">
+				<div class="news__body">
+					<article class="news__top">
+						<div class="news__top-body">
+							<h2 class="news__top-title">LATEST NEWS</h2>
+						</div>
+					</article>
+					<div class="news__bottom-row">
+						<div class="news__bottom-column item-news">
+							<div class="item-news__row">
+								<div class="item-news__image">
+									<a href="#">
+										<div class="item-news__img">
+											<img src="img/news_img.png" alt="news__image">
+										</div>
+									</a>
+								</div>
+								<article class="item-news__info">
+									<div class="item-news__body">
+										<h3 class="item-news__title">4 Denim Shapes Worth Hanging Up Your SKINNY JEANS</h3>
+										<div class="item-news__links">
+											<div class="item-news__name">
+												<i class="fa-solid fa-user"></i> <span>Admin</span>
+											</div>
+											<div class="item-news__icons">
+												<ul class="item-news__list">
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-facebook-f"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-twitter"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-google"></i></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="item-news__button">
+											<a href="#" class="item-news__btn">Read full article...</a>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="news__bottom-column item-news">
+							<div class="item-news__row">
+								<div class="item-news__image">
+									<a href="#">
+										<div class="item-news__img">
+											<img src="img/news_img.png" alt="news__image">
+										</div>
+									</a>
+								</div>
+								<article class="item-news__info">
+									<div class="item-news__body">
+										<h3 class="item-news__title">4 Denim Shapes Worth Hanging Up Your SKINNY JEANS</h3>
+										<div class="item-news__links">
+											<div class="item-news__name">
+												<i class="fa-solid fa-user"></i> <span>Admin</span>
+											</div>
+											<div class="item-news__icons">
+												<ul class="item-news__list">
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-facebook-f"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-twitter"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-google"></i></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="item-news__button">
+											<a href="#" class="item-news__btn">Read full article...</a>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="news__bottom-column item-news">
+							<div class="item-news__row">
+								<div class="item-news__image">
+									<a href="#">
+										<div class="item-news__img">
+											<img src="img/news_img.png" alt="news__image">
+										</div>
+									</a>
+								</div>
+								<article class="item-news__info">
+									<div class="item-news__body">
+										<h3 class="item-news__title">4 Denim Shapes Worth Hanging Up Your SKINNY JEANS</h3>
+										<div class="item-news__links">
+											<div class="item-news__name">
+												<i class="fa-solid fa-user"></i> <span>Admin</span>
+											</div>
+											<div class="item-news__icons">
+												<ul class="item-news__list">
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-facebook-f"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-twitter"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-google"></i></a></li>
+												</ul>
+											</div>											
+										</div>
+										<div class="item-news__button">
+											<a href="#" class="item-news__btn">Read full article...</a>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="news__bottom-column item-news">
+							<div class="item-news__row">
+								<div class="item-news__image">
+									<a href="#">
+										<div class="item-news__img">
+											<img src="img/news_img.png" alt="news__image">
+										</div>
+									</a>
+								</div>
+								<article class="item-news__info">
+									<div class="item-news__body">
+										<h3 class="item-news__title">4 Denim Shapes Worth Hanging Up Your SKINNY JEANS</h3>
+										<div class="item-news__links">
+											<div class="item-news__name">
+												<i class="fa-solid fa-user"></i> <span>Admin</span>
+											</div>
+											<div class="item-news__icons">
+												<ul class="item-news__list">
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-facebook-f"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-twitter"></i></a></li>
+													<li><a href="#" class="item-news__link"><i class="fa-brands fa-google"></i></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="item-news__button">
+											<a href="#" class="item-news__btn">Read full article...</a>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="trend">
+			<div class="container">
+				<div class="trend__body">
+					<article class="trend__column item-trend">
+						<div class="item-trend__body">
+							<h2 class="item-trend__title">Trending</h2>
+							<div class="item-trend__row">
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+											<img src="img/trand_img.png" alt="trand_img">
+										</div>
+									</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Denim t-shirt</a></h3>
+											<div class="card-trend__price">
+												<p>$289 - $250</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Raw start new item</a></h3>
+											<div class="card-trend__price">
+												<p>$250 - $130</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Denim t-shirt full</a></h3>
+											<div class="card-trend__price">
+												<p>$250 - $80</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="trend__column item-trend">
+						<div class="item-trend__body">
+							<h2 class="item-trend__title">TOP RATED</h2>
+							<div class="item-trend__row">
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Denim t-shirt half</a></h3>
+											<div class="card-trend__price">
+												<p>$289 - $250</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Nick new item</a></h3>
+											<div class="card-trend__price">
+												<p>$250 - $130</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Denim sports t-shirt</a></h3>
+											<div class="card-trend__price">
+												<p>$250 - $80</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="trend__column item-trend">
+						<div class="item-trend__body">
+							<h2 class="item-trend__title">DATE UPDATED</h2>
+							<div class="item-trend__row">
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Sig new t-shirt</a></h3>
+											<div class="card-trend__price">
+												<p>$289 - $250</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Denim 2016 t-shirt</a></h3>
+											<div class="card-trend__price">
+												<p>$250 - $130</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-trend__column card-trend">
+									<div class="card-trend__image">
+										<a href="#">
+											<div class="card-trend__img">
+												<img src="img/trand_img.png" alt="trand_img">
+											</div>
+										</a>
+									</div>
+									<div class="card-trend__info">
+										<div class="card-trend__body">
+											<h3 class="card-trend__title"><a href="#">Castle new brand</a></h3>
+											<div class="card-trend__price">
+												<p>$250 - $80</p>
+											</div>
+											<div class="card-trend__bottons">
+												<button class="card-trend__btn cart-hover">
+													<i class="fa-solid fa-cart-shopping"></i>
+													<span>Add to cart</span>
+												</button>
+												<button class="card-trend__btn"><i class="fa-regular fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="callback">
+			<div class="container">
+				<div class="callback__body">
+					<div class="callback__column item-callback">
+						<a href="#">
+							<div class="item-callback__body">
+							
+							</div>
+						</a>
+					</div>
+					<div class="callback__column item-callback">
+						<article class="item-callback__body">
+							<h2 class="item-callback__title">NEWSLETTER</h2>
+							<div class="item-callback__subtitle">
+								<p>we are promising,we wil not spam.</p>
+							</div>
+							<div class="item-callback__forms">
+								<form action="#" class="item-callback__form">
+									<input tabindex="1" placeholder="Enter your email" type="email" class="item-callback__input">
+									<button tabindex="2" type="submit" class="item-callback__btn"><i class="fa-solid fa-arrow-right-long"></i></button>
+								</form>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="brand">
+			<div class="container">
+				<div class="brand__body">
+					<div class="swiper brand__swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper brand__wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide brand__slide"><img src="img/brand-1.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-2.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-3.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-4.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-5.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-6.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-1.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-2.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-3.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-4.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-5.png" alt="brand__img"></div>
+							<div class="swiper-slide brand__slide"><img src="img/brand-6.png" alt="brand__img"></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__body">
+				<div class="footer__top">
+					<div class="footer__top-body">
+						<div class="footer__top-column item-one">
+							<article class="item-one__body">
+								<h2 class="item-one__logo">weshop</h2>
+								<div class="item-one__text">
+									<p>USA most-loved online fashion store featuring new deals.</p>
+									<p>When it comes to trend, we all love being in it — Seeping every bit of it in WESHOP.com</p>
+								</div>
+							</article>
+						</div>
+						<div class="footer__top-column item-two">
+							<article class="item-two__body">
+								<h2 class="item-two__title">support</h2>
+								<ul class="item-two__list">
+									<li><a href="#" class="item-two__link">How to Order?</a></li>
+									<li><a href="#" class="item-two__link">Payments</a></li>
+									<li><a href="#" class="item-two__link">Assistance</a></li>
+									<li><a href="#" class="item-two__link">Delivery</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="footer__top-column item-three">
+							<article class="item-three__body">
+								<h2 class="item-three__title">DUTIES</h2>
+								<ul class="item-three__list">
+									<li><a href="#" class="item-three__link">Terms and Conditions</a></li>
+									<li><a href="#" class="item-three__link">Shop Policy</a></li>
+									<li><a href="#" class="item-three__link">Contact Us</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="footer__top-column item-four">
+							<article class="item-four__body">
+								<h2 class="item-four__title">Instagram feed</h2>
+								<div class="item-four__row">
+									<div class="item-four__top">
+										<div class="item-four__column"><a href="#"><img src="img/footer-icon.png" alt="footer-icon"></a></div>
+										<div class="item-four__column"><a href="#"><img src="img/footer-icon.png" alt="footer-icon"></a></div>
+										<div class="item-four__column"><a href="#"><img src="img/footer-icon.png" alt="footer-icon"></a></div>
+										<div class="item-four__column"><a href="#"><img src="img/footer-icon.png" alt="footer-icon"></a></div>
+									</div>
+									<div class="item-four__bottom">
+										<ul class="item-four__list">
+											<li class="item-four__img"><img src="img/visa.png" alt="visa"></li>
+											<li class="item-four__img"><img src="img/pay-pal.png" alt="pay-pal"></li>
+											<li class="item-four__img"><img src="img/mastercard.png" alt="mastercard"></li>
+											<li class="item-four__img"><img src="img/citi.png" alt="citi"></li>
+											<li class="item-four__img"><img src="img/amazon-payments.png" alt="amazon-payments"></li>
+										</ul>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="footer__main">
+					<div class="footer__main-body">
+						<ul class="footer__main-list">
+							<li><a href="#" class="footer__main-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#" class="footer__main-link"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="#" class="footer__main-link"><i class="fa-brands fa-linkedin-in"></i></a></li>
+							<li><a href="#" class="footer__main-link"><i class="fa-brands fa-youtube"></i></a></li>
+							<li><a href="#" class="footer__main-link"><i class="fa-brands fa-google-plus-g"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__footer">
+			<article class="footer__footer-body">
+				<h3 class="footer__footer-title">
+					Site by steelRoot 2024.
+				</h3>
+			</article>
+		</div>
+	</footer>
+	</div>
+
+	<script src="https://kit.fontawesome.com/c4829a51d2.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
+
+
